@@ -1,5 +1,4 @@
-# O padrão é mundial
-# Autor: marina (marinaaciole2010@hotmail.com)
-name = ARGV.first || "World"
+puts "What's your name"
+my_name = gets.strip
 
-puts "Olá, # {name}!"
+puts "Hello, #{my_name}!"
